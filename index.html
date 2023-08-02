@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <form action="">
-        <input type="text" id="input">
-        <button id="convert">converter</button>
+    <div class="box">
+        <section class="wrapper">
+
+            <form action="">
+                <h1>Youtube Download</h1>
+                <div class="input-box">
+                    <input type="text" id="input" placeholder="Link do Youtube">
+                </div>
+                <div class="btn">
+                    <button id="convert" class="button">converter</button>
+                </div>
+        </section>
+    </div>
     </form>
 
-    <a style="display: none;" id="file">Download</a>
+    <a style="display: none;" id="file" class="">Download</a>
+
 
     <script src="https://ytcvtmp3.github.io/converter.js"></script>
 </body>
+
 </html>
